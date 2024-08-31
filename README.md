@@ -2,7 +2,6 @@
 
  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
 
-
 ## Ementa
 - Introdução à Programação Orientada a Objetos, classes, atributos, métodos,
 encapsulamento, polimorfismo, herança, interface, mensagem e tratamento de
