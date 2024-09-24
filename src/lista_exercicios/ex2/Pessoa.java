@@ -1,4 +1,4 @@
-package lista_exercicios.ex1;
+package lista_exercicios.ex2;
 
 public class Pessoa {
     private String nome;
@@ -30,4 +30,7 @@ public class Pessoa {
         System.out.println("Idade: " + idade);
     }
 
+    public void cumprimentar() {
+        System.out.println("Olá, " + nome + "! Seja bem-vindo(a) ao nosso sistema");
+    }
 }
