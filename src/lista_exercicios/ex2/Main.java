@@ -1,5 +1,7 @@
 package lista_exercicios.ex2;
 
+// Adicionar um metodo cumprimentar() à classe Pessoa que imprime uma mensagem de saudação usando o nome.
+
 public class Main {
     public static void main(String[] args) {
         Pessoa pessoa1 = new Pessoa("Luiza Souza", 18);
