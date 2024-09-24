@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Pessoa pessoa1 = new Pessoa("Luiza Souza", 18);
         Pessoa pessoa2 = new Pessoa("Marcos Paulo", 20);
-        Pessoa pessoa3 = new Pessoa("Carlos", 28);
+        Pessoa pessoa3 = new Pessoa("Carlos", 29);
 
         System.out.println("Pessoa 1");
         pessoa1.console();
