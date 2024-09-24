@@ -25,7 +25,7 @@ public class Pessoa {
         this.idade = idade;
     }
 
-    public void console() {
+    public void console(){
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
     }
