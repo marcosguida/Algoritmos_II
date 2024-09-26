@@ -1,5 +1,4 @@
 package lista_exercicios.ex4;
-
 import java.util.Scanner;
 
 public class Aluno {
