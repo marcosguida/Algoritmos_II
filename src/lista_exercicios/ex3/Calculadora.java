@@ -9,31 +9,30 @@ public class Calculadora {
         scanner = new Scanner(System.in);
     }
 
-    // Metodo de soma
+    // soma
     public double somar(double a, double b) {
         return a + b;
     }
 
-    // Metodo de subtração
+    // subtração
     public double subtrair(double a, double b) {
         return a - b;
     }
 
-    // Metodo de multiplicação
+    // multiplicação
     public double multiplicar(double a, double b) {
         return a * b;
     }
 
-    // Metodo de divisão
+    //divisão
     public double dividir(double a, double b) {
         if (b == 0) {
-            throw new IllegalArgumentException("Divisão por zero não e permitida!");
+            throw new IllegalArgumentException("Divisão por zero não é permitida!");
         }
         return a / b;
     }
 
-    // Metodo para obter a entrada do usuário e realizar uma operação
-    public void realizarOperacao() {
+    public void operacao() {
         System.out.println("Insira o primeiro número:");
         double numero1 = scanner.nextDouble();
 
@@ -72,6 +71,6 @@ public class Calculadora {
     }
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
-        calculadora.realizarOperacao();
+        calculadora.operacao();
     }
 }
