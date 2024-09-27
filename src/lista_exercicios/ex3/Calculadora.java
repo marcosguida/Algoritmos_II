@@ -1,4 +1,5 @@
 package lista_exercicios.ex3;
+
 import java.util.Scanner;
 
 public class Calculadora {
@@ -9,22 +10,18 @@ public class Calculadora {
         scanner = new Scanner(System.in);
     }
 
-    // soma
     public double somar(double a, double b) {
         return a + b;
     }
 
-    // subtração
     public double subtrair(double a, double b) {
         return a - b;
     }
 
-    // multiplicação
     public double multiplicar(double a, double b) {
         return a * b;
     }
 
-    //divisão
     public double dividir(double a, double b) {
         if (b == 0) {
             throw new IllegalArgumentException("Divisão por zero não é permitida!");
@@ -69,8 +66,11 @@ public class Calculadora {
                 System.out.println("Escolha inválida!");
         }
     }
+
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
         calculadora.operacao();
     }
+
 }
+

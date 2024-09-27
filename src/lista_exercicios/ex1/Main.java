@@ -1,8 +1,7 @@
 package lista_exercicios.ex1;
 
-// Crie uma classe Pessoa com os atributos: nome e idade. Crie um objeto dessa classe, atribua valores aos atributos e imprima-os no console.
-
 public class Main {
+
     public static void main(String[] args) {
         Pessoa pessoa1 = new Pessoa("Luiza Souza", 18);
         Pessoa pessoa2 = new Pessoa("Marcos Paulo", 20);
@@ -15,4 +14,5 @@ public class Main {
         System.out.println("\nPessoa 3");
         pessoa3.console();
     }
+
 }

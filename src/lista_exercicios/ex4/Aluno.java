@@ -1,7 +1,9 @@
 package lista_exercicios.ex4;
+
 import java.util.Scanner;
 
 public class Aluno {
+
     private String nome;
     private float nota1;
     private float nota2;
@@ -61,4 +63,5 @@ public class Aluno {
         Aluno aluno = new Aluno();
         aluno.dadosAluno();
     }
+
 }
