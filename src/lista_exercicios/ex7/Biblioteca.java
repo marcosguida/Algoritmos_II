@@ -1,14 +1,19 @@
-package lista_exercicios.ex6;
+package lista_exercicios.ex7;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Biblioteca {
+
     private List<Livro> livros;
 
     public Biblioteca() {
+
         livros = new ArrayList<>();
+        adicionarLivro(new Livro("O Poder do Hábito", "Charles Duhigg", 2012));
+        adicionarLivro(new Livro("Os princípios da filosofia de Santo Tomás de Aquino", "O.p. Fr. Édouard Hugon", 2023));
+        adicionarLivro(new Livro("Pequena via de Santa Teresinha: Caminho de Cura e Santidade", "r André L. Botelho de Andrade ", 2021));
     }
 
     public void adicionarLivro(Livro livro) {
@@ -21,7 +26,6 @@ public class Biblioteca {
 
     public void exibirLivros() {
         for (Livro livro : livros) {
-
             System.out.println("\n");
             System.out.println("---------------");
             System.out.println("Título: " + livro.getTitulo());
@@ -30,6 +34,16 @@ public class Biblioteca {
             System.out.println("---------------");
         }
     }
+
+    public Livro buscarLivroPorTitulo(String titulo) {
+        for (Livro livro : livros) {
+            if (livro.getTitulo().equals(titulo)) {
+                return livro;
+            }
+        }
+        return null;
+    }
+
 
     public void menu() {
         Scanner scanner = new Scanner(System.in);
@@ -40,7 +54,8 @@ public class Biblioteca {
             System.out.println("1. Adicionar Livro");
             System.out.println("2. Remover Livro");
             System.out.println("3. Exibir Todos os Livros");
-            System.out.println("4. Sair");
+            System.out.println("4. Buscar Livro pelo Título");
+            System.out.println("5. Sair");
             System.out.print("Escolha uma das opções: ");
 
             int opcao = scanner.nextInt();
@@ -56,6 +71,9 @@ public class Biblioteca {
                     exibirLivros();
                     break;
                 case 4:
+                    buscarLivroPorTituloUsuario(scanner);
+                    break;
+                case 5:
                     continuar = false;
                     System.out.println("Saindo do programa.");
                     break;
@@ -101,10 +119,25 @@ public class Biblioteca {
             if (removido) {
                 System.out.println("LIVRO REMOVIDO COM SUCESSO!");
             } else {
-                System.out.println("NOÃ FOI POSSIVEL REMOVER.");
+                System.out.println("NÃO FOI POSSÍVEL REMOVER.");
             }
         } else {
-            System.out.println("LIVRO NAO ENCONTRADO.");
+            System.out.println("LIVRO NÃO ENCONTRADO.");
+        }
+    }
+
+    private void buscarLivroPorTituloUsuario(Scanner scanner) {
+        System.out.println("Digite o título do livro que deseja buscar:");
+        scanner.nextLine();
+        String titulo = scanner.nextLine();
+
+        Livro livroEncontrado = buscarLivroPorTitulo(titulo);
+
+        if (livroEncontrado != null) {
+            System.out.println("Livro encontrado:");
+            livroEncontrado.exibirDetalhes();
+        } else {
+            System.out.println("Livro não encontrado.");
         }
     }
 
@@ -113,4 +146,3 @@ public class Biblioteca {
         biblioteca.menu();
     }
 }
-
