@@ -1,4 +1,4 @@
-package lista_exercicios.ex6;
+package lista_exercicios.ex7;
 
 public class Livro {
 
