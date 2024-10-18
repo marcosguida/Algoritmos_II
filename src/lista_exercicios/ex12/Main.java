@@ -8,7 +8,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("\n------------------------------ MENU ------------------------------");
+            System.out.println("\n------------------------------ EMPRESA TECH ------------------------------");
             System.out.println("1. Contratar funcionário");
             System.out.println("2. Listar funcionários");
             System.out.println("3. Demitir funcionário");
@@ -16,7 +16,7 @@ public class Main {
             System.out.println("5. Sair");
             System.out.print("Escolha uma opção: ");
             int opcao = scanner.nextInt();
-            scanner.nextLine(); // Limpar o buffer do Scanner
+            scanner.nextLine();
 
             switch (opcao) {
                 case 1:
