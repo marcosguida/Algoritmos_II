@@ -1,4 +1,4 @@
-package empresa;
+package lista_exercicios.ex12;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -54,5 +54,13 @@ public class Empresa {
 
     public void setCnpj(String cnpj) {
         this.cnpj = cnpj;
+    }
+
+    public double calcularFolhaPagamento() {
+        double totalSalarios = 0.0;
+        for (Funcionario funcionario : funcionarios) {
+            totalSalarios += funcionario.getSalario();
+        }
+        return totalSalarios;
     }
 }

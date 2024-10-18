@@ -1,4 +1,4 @@
-package empresa;
+package lista_exercicios.ex11;
 
 public class Funcionario {
     private String nome;
