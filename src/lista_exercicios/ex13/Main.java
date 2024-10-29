@@ -1,3 +1,6 @@
+// Como proprietário de uma pequena loja, quero um sistema para registrar o horário de entrada e
+// saída dos meus funcionários, para facilitar o controle das horas trabalhadas e a pontualidade.
+
 package lista_exercicios.ex13;
 
 import java.util.Scanner;

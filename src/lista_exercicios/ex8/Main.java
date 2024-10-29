@@ -1,3 +1,4 @@
+// Crie uma classe Pedido com atributos número, data e uma lista de Produto. Adicione métodos para adicionar produtos ao pedido e calcular o valor total.
 package lista_exercicios.ex8;
 
 import java.util.Date;

@@ -1,3 +1,6 @@
+// Como feirante, preciso controlar meu estoque de produtos e registrar as vendas realizadas durante
+//a feira, para acompanhar meu faturamento diário.
+
 package lista_exercicios.ex14;
 
 public class Main {

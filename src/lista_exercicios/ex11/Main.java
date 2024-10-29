@@ -1,3 +1,5 @@
+// Crie uma classe Empresa com atributos nome, cnpj e uma lista de Funcionario. Adicione métodos para contratar e demitir funcionários
+
 package lista_exercicios.ex11;
 
 import java.util.Scanner;

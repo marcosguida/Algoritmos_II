@@ -1,3 +1,5 @@
+// Implemente um sistema de folha de pagamento na classe Empresa, calculando o total de salários pagos.
+
 package lista_exercicios.ex12;
 
 import java.util.Scanner;

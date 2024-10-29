@@ -1,3 +1,5 @@
+// Adicione métodos de encapsulamento na classe Cliente e valide o CPF (número deve ter 11 dígitos).
+
 package lista_exercicios.ex10;
 
 import sistema_carrinho.Produto;

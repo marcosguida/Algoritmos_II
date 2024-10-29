@@ -1,3 +1,6 @@
+// Como entregador autônomo, quero um sistema que me permita gerenciar os pedidos de entrega,
+//registrando os detalhes do cliente e do produto, para otimizar minhas rotas e melhorar meu serviço.
+
 package lista_exercicios.ex15;
 
 import java.util.Scanner;
