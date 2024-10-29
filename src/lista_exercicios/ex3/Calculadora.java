@@ -1,3 +1,5 @@
+// Crie uma classe Calculadora com métodos para somar, subtrair, multiplicar e dividir dois números.
+
 package lista_exercicios.ex3;
 
 import java.util.Scanner;

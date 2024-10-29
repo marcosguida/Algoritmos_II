@@ -1,3 +1,5 @@
+// Adicione um método cumprimentar() à classe Pessoa que imprime uma mensagem de saudação usando o nome.
+
 package lista_exercicios.ex2;
 
 public class Main {

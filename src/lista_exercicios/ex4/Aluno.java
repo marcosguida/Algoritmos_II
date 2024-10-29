@@ -1,3 +1,5 @@
+// Crie uma classe Aluno com atributos nome, nota1, nota2 e métodos para calcular a média e verificar se o aluno foi aprovado (média maior ou igual a 7).
+
 package lista_exercicios.ex4;
 
 import java.util.Scanner;

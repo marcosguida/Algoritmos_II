@@ -41,7 +41,7 @@ public class Biblioteca {
             System.out.println("1. Adicionar Livro");
             System.out.println("2. Remover Livro");
             System.out.println("3. Exibir Todos os Livros");
-            System.out.println("4. Sair");
+            System.out.println("4. Finalizar programa:");
             System.out.print("Escolha uma das opções: ");
 
             int opcao = scanner.nextInt();

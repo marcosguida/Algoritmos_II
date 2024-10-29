@@ -1,3 +1,5 @@
+// Crie uma classe Livro com atributos titulo, autor e anoPublicacao. Adicione um método exibirDetalhes().
+
 package lista_exercicios.ex5;
 
 public class Livro {
@@ -44,7 +46,7 @@ public class Livro {
     public static void main(String[] args) {
         Livro livro = new Livro("O Poder do Hábito", "Charles Duhigg", 2012);
         Livro livro1 = new Livro("Os princípios da filosofia de Santo Tomás de Aquino", "O.p. Fr. Édouard Hugon", 2023);
-        Livro livro2 = new Livro("Pequena via de Santa Teresinha: Caminho de Cura e Santidade", "r André L. Botelho de Andrade ", 2021);
+        Livro livro2 = new Livro("Pequena via de Santa Teresinha: Caminho de Cura e Santidade", "André L. Botelho de Andrade ", 2021);
 
         livro.exibirDetalhes();
         System.out.println("\n");

@@ -1,3 +1,5 @@
+// Crie uma classe Pessoa com os atributos: nome e idade. Crie um objeto dessa classe, atribua valores aos atributos e imprima-os no console.
+
 package lista_exercicios.ex1;
 
 public class Main {
