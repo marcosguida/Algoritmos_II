@@ -3,7 +3,7 @@
 
 <h1 align="center" style="font-weight: bold;"> ALGORITMOS E PROGRAMAÇÃO II</h1>
  
- - REPOSITÓRIO DESTINADO À DISCIPLINA DE ALGORITMOS E PROGRAMAÇÃO II, DO 2° PERÍODO DO CURSOS DE SISTEMAS DE INFORMAÇÃO - UNITINS | 2024.2
+ - Repositório destinado à disciplina de ALGORITMOS E PROGRAMAÇÃO II, do 2° Período do curso de Sistemas de Informação - UNITINS | 2024.2
 
  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
  
