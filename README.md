@@ -7,8 +7,6 @@
 
  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
  
-![docker][DOCKER__BADGE]
-![mariadb][MARIADB__BADGE]
 ![spring][SPRING_BADGE]
 ![java][JAVA_BADGE]
 
@@ -20,8 +18,6 @@ SOLID).
 
 ## Tecnologias e Ferramentas
 * Java 17
-* MariaDB
-* Docker
 * Spring Boot
 * IntelliJ IDEA
 
