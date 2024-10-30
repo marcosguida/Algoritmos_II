@@ -2,8 +2,8 @@
 [SPRING_BADGE]: https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white
 
 <h1 align="center" style="font-weight: bold;"> ALGORITMOS E PROGRAMAÇÃO II</h1>
-
-### REPOSITÓRIO DESTINADO À DISCIPLINA DE ALGORITMOS E PROGRAMAÇÃO II, DO 2° PERÍODO DO CURSOS DE SISTEMAS DE INFORMAÇÃO - UNITINS | 2024.2
+ 
+ - REPOSITÓRIO DESTINADO À DISCIPLINA DE ALGORITMOS E PROGRAMAÇÃO II, DO 2° PERÍODO DO CURSOS DE SISTEMAS DE INFORMAÇÃO - UNITINS | 2024.2
 
  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
  
