@@ -1,5 +1,3 @@
-[DOCKER__BADGE]: https://img.shields.io/badge/docker-005CFE?style=for-the-badge&logo=docker
-[MARIADB__BADGE]: https://img.shields.io/badge/mariadb-7026b9?style=for-the-badge&logo=mariadb
 [JAVA_BADGE]:https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white
 [SPRING_BADGE]: https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white
 
@@ -7,10 +5,11 @@
 
  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
  
-![docker][DOCKER__BADGE]
-![mariadb][MARIADB__BADGE]
 ![spring][SPRING_BADGE]
 ![java][JAVA_BADGE]
+
+ - Repositório destinado à disciplina de ALGORITMOS E PROGRAMAÇÃO II, do 2° Período do curso de Sistemas de Informação - UNITINS
+ - 2024.2
 
 ## Ementa
 - Introdução à Programação Orientada a Objetos, classes, atributos, métodos,
@@ -20,8 +19,6 @@ SOLID).
 
 ## Tecnologias e Ferramentas
 * Java 17
-* MariaDB
-* Docker
 * Spring Boot
 * IntelliJ IDEA
 
