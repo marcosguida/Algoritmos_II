@@ -37,20 +37,3 @@ public class Pessoa {
         System.out.println("CPF: " + cpf);
     }
 }
-
-class Main {
-    public static void main(String[] args) {
-        Pessoa pessoa1 = new Pessoa("Marcos Julius", 30, "123.456.789-10");
-        Pessoa pessoa2 = new Pessoa("Campos Sales", 25, "123.456.789-10");
-
-        pessoa1.exibirInformacoes();
-        System.out.println("\n");
-        pessoa2.exibirInformacoes();
-
-        if (pessoa1.equals(pessoa2)) {
-            System.out.println("As pessoas são iguais (mesmo CPF).");
-        } else {
-            System.out.println("As pessoas são diferentes.");
-        }
-    }
-}
