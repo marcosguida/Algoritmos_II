@@ -4,8 +4,8 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-class Carrinho {
-    List<Item> produtos;
+public class Carrinho {
+    private List<Item> produtos;
 
     public Carrinho() {
         produtos = new ArrayList<>();
@@ -15,30 +15,32 @@ class Carrinho {
         if (item instanceof Alimento) {
             Alimento alimento = (Alimento) item;
             if (alimento.vender(quantidade)) {
-                produtos.add(item);
+                for (int i = 0; i < quantidade; i++) {
+                    produtos.add(alimento);
+                }
                 return true;
             }
-        } else if (item instanceof Item) {
-            produtos.add(item);
+        } else {
+            for (int i = 0; i < quantidade; i++) {
+                produtos.add(item);
+            }
             return true;
         }
         return false;
     }
-
     public static void main(String[] args) {
-
-        Alimento leite = new Alimento("Energetico Power", 10.49, LocalDate.of(2024, 10, 15));
-        Livro livro = new Livro("O processo", 84.90);
-        Eletronicos foneDeOuvido = new Eletronicos("Fone de Ouvido TWS JBL", 69.90);
+        Item alimento1 = new Alimento("Energético Power", 10.49, LocalDate.of(2024, 10, 15));
+        Item livro1 = new Livro("O Processo", 84.90);
+        Item eletronicos = new Eletronicos("Fone de Ouvido TWS JBL", 69.90);
 
         Carrinho carrinho = new Carrinho();
 
-        carrinho.addItem(2);
-        carrinho.addItem(1);
-        carrinho.addItem(1);
+        carrinho.addItem(alimento1, 2);
+        carrinho.addItem(livro1, 1);
+        carrinho.addItem(eletronicos, 1);
 
         for (Item item : carrinho.produtos) {
-            System.out.println(item.nome);
+            System.out.println(item.getNome());
         }
     }
 }
