@@ -1,4 +1,4 @@
-package conta_bancaria;
+package carrinho_supermercado;
 
 public class Livro extends Item {
 
