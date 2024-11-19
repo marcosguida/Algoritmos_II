@@ -14,7 +14,7 @@ public class Main {
             System.out.println("3) Listar itens");
             System.out.println("4) Calcular total");
             System.out.println("5) Finalizar compra");
-            System.out.print("Escolha uma opção: ");
+            System.out.print("Escolha uma opção válida: ");
 
             try {
                 int opcao = scanner.nextInt();
@@ -64,7 +64,7 @@ public class Main {
                         break;
 
                     case 5:
-                        System.out.println("Finalizando programa...");
+                        System.out.println("Finalizando programa em 1, 2, 3, 4...");
                         scanner.close();
                         return;
 
@@ -74,7 +74,7 @@ public class Main {
             } catch (IllegalArgumentException e) {
                 System.out.println("Erro: " + e.getMessage());
             } catch (Exception e) {
-                System.out.println("Erro: Entrada inválida. Por favor, insira um número válido");
+                System.out.println("Erro: Entrada errada. Por favor, insira um número válido");
                 scanner.nextLine();
             }
         }
