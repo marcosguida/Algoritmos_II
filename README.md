@@ -19,7 +19,7 @@ SOLID).
 
 ## Tecnologias e Ferramentas
 * Java 17
-* Spring Boot
+* Spring Boot 3
 * IntelliJ IDEA
 
 ## Discente
