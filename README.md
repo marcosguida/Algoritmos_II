@@ -9,7 +9,7 @@
 ![java][JAVA_BADGE]
 
  - Repositório destinado à disciplina de ALGORITMOS E PROGRAMAÇÃO II, do 2° Período do curso de Sistemas de Informação - UNITINS
- - 2024.2
+ - Semestre letivo: 2024.2
 
 ## Ementa
 - Introdução à Programação Orientada a Objetos, classes, atributos, métodos,
