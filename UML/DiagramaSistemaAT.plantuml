@@ -1,0 +1,55 @@
+@startuml
+class AssistenciaTecnica {
+    -String razaoSocial
+    -String cnpj
+    -String endereco
+    -String telefone
+    +cadastrarCliente()
+    +registrarAtendimento()
+    +gerarRelatorio()
+}
+
+class Cliente {
+    -String nome
+    -String cpf
+    -String telefone
+    -String email
+    +solicitarServico()
+    +consultarServicos()
+    +atualizarDados()
+}
+
+class OrdemServico {
+    -int numero
+    -Date dataAbertura
+    -float valorTotal
+    -String status
+    +calcularValor()
+    +atualizarStatus()
+    +finalizarServico()
+}
+
+class Servico {
+    -String descricao
+    -float valor
+    -int tempoEstimado
+    -String categoria
+    +calcularCusto()
+    +definirPrioridade()
+}
+
+class Peca {
+    -String codigo
+    -String descricao
+    -float valorUnitario
+    -int quantidadeEstoque
+    +verificarDisponibilidade()
+    +atualizarEstoque()
+}
+
+AssistenciaTecnica "1" o-- "0..*" Cliente : Agregação
+AssistenciaTecnica "1" *-- "0..*" OrdemServico : Composição
+OrdemServico "1" *-- "1..*" Servico : Composição
+Servico "0..*" o-- "0..*" Peca : Agregação
+
+@enduml
