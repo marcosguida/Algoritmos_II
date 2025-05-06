@@ -10,7 +10,7 @@ abstract class Forma {
     }
 }
 
-// Classes concretas que estendem a classe abstrata
+// Classes que estendem a classe abstrata
 class Circulo extends Forma {
     private double raio;
     
@@ -46,7 +46,7 @@ public class ClasseAbstrataMain {
         Forma circulo = new Circulo(5);
         Forma retangulo = new Retangulo(4, 6);
         
-        circulo.exibirInformacao(); // Área: 78.53981633974483
-        retangulo.exibirInformacao(); // Área: 24.0
+        circulo.exibirInformacao(); 
+        retangulo.exibirInformacao(); 
     }
 }
