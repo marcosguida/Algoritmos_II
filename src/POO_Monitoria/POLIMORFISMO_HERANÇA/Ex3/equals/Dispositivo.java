@@ -12,9 +12,7 @@ public class Dispositivo {
         this.modelo = modelo;
         this.versaoSoftware = versaoSoftware;
     }
-    
-    // Getters e setters omitidos para brevidade
-    
+        
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
