@@ -1,4 +1,4 @@
-package POO_Monitoria.POLIMORFISMO.Ex4.Interface;
+package POO_Monitoria.POLIMORFISMO_HERANÇA.Ex4.Interface;
 
 interface Pagamento {
     

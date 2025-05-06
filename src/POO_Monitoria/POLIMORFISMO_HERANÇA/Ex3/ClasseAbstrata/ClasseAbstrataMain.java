@@ -1,4 +1,4 @@
-package POO_Monitoria.POLIMORFISMO.Ex3.ClasseAbstrata;
+package POO_Monitoria.POLIMORFISMO_HERANÇA.Ex3.ClasseAbstrata;
 // Classe abstrata
 abstract class Forma {
     // Método abstrato (sem implementação)

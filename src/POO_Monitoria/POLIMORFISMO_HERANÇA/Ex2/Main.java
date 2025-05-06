@@ -1,4 +1,4 @@
-package POO_Monitoria.POLIMORFISMO.Ex2;
+package POO_Monitoria.POLIMORFISMO_HERANÇA.Ex2;
 
 // SUPERCLASSE
 class Funcionario {

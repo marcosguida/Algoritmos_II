@@ -1,4 +1,4 @@
-package POO_Monitoria.POLIMORFISMO.Ex4.MetodoEquals;
+package POO_Monitoria.POLIMORFISMO_HERANÇA.Ex4.MetodoEquals;
 
 public class Conta {
     

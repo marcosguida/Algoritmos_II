@@ -1,4 +1,4 @@
-package POO_Monitoria.POLIMORFISMO.Ex3.equals;
+package POO_Monitoria.POLIMORFISMO_HERANÇA.Ex3.equals;
 
 public class Dispositivo {
     private String id;
