@@ -18,14 +18,12 @@ exceções. Princípios de análise e projeto orientados a objetos (UML e Princ�
 SOLID).
 
 ## Tecnologias e Ferramentas
-* Java 17
+* Java 21
 * Spring Boot 3
-* IntelliJ IDEA
 
 ## Discente
 
 - Marcos Ribeiro Guida
-- Matrícula: 2024101100100573
 
 ## Contato
 
