@@ -4,8 +4,8 @@
 [JAVA_BADGE]:https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white
 [UML_BADGE]: https://img.shields.io/badge/UML-FABD14.svg?style=for-the-badge&logo=UML&logoColor=black
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
-![uml][UML_BADGE]
 ![java][JAVA_BADGE]
+![uml][UML_BADGE]
 </h1>
 
  - Repositório destinado à disciplina de ALGORITMOS E PROGRAMAÇÃO II, do 2° Período do curso de Sistemas de Informação - UNITINS
