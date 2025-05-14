@@ -1,4 +1,4 @@
-package exercicio_interface;
+package interfaces.exercicio_interface_rpg;
 
 abstract class Personagem {
     protected String nome;

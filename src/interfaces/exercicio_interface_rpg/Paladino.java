@@ -1,4 +1,4 @@
-package exercicio_interface;
+package interfaces.exercicio_interface_rpg;
 
 class Paladino extends Personagem {
     public Paladino(String nome, int hp, int sp) {

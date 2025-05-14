@@ -1,4 +1,4 @@
-package exercicio_interface;
+package interfaces.exercicio_interface_rpg;
 
 class Escudo implements Armadura {
     @Override

@@ -1,4 +1,4 @@
-package exercicio_interface;
+package interfaces.exercicio_interface_rpg;
 
 class Guerreiro extends Personagem {
     public Guerreiro(String nome, int hp, int sp) {
