@@ -19,7 +19,7 @@ SOLID).
 
 ## Tecnologias e Ferramentas
 * Java 21
-* Spring Boot 3
+* UML (Unified Modeling Language)
 
 ## Discente
 
