@@ -1,4 +1,4 @@
-package POO_Monitoria.ENUM.Ex2;
+package ENUM.Ex2;
 
 public enum Categoria {
     ELETRONICO("Eletrônico"),

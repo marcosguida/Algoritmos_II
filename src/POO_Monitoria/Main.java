@@ -1,4 +1,4 @@
-package POO_Monitoria;
+
 
 // Algoritmo para ler 3 números inteiros e imprimir em ordem crescente
 

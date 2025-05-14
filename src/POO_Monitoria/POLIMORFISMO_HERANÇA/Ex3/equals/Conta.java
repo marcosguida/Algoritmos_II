@@ -1,4 +1,4 @@
-package POO_Monitoria.POLIMORFISMO_HERANÇA.Ex3.equals;
+package POLIMORFISMO_HERANÇA.Ex3.equals;
 
 public class Conta {
     private String numeroConta;

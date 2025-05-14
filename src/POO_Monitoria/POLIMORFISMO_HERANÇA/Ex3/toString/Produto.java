@@ -1,4 +1,4 @@
-package POO_Monitoria.POLIMORFISMO_HERANÇA.Ex3.toString;
+package POLIMORFISMO_HERANÇA.Ex3.toString;
 
 public class Produto {
     private String nome;

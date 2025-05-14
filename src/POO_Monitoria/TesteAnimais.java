@@ -1,4 +1,3 @@
-package POO_Monitoria;
 
 // Algoritmo para verificar o tipo de animal e executar um método específico (instanceof e casting)
 

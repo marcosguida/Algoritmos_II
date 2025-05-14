@@ -1,4 +1,4 @@
-package POO_Monitoria.POLIMORFISMO_HERANÇA.Ex1;
+package POLIMORFISMO_HERANÇA.Ex1;
 
 // Classe pai
 class Forma {

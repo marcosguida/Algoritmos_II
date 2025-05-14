@@ -1,4 +1,4 @@
-package POO_Monitoria.ENUM.Ex2;
+package ENUM.Ex2;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

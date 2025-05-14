@@ -1,4 +1,4 @@
-package POO_Monitoria.ENUM.Ex3;
+package ENUM.Ex3;
 
 public class EnumcomMetodo {
     enum TAM {

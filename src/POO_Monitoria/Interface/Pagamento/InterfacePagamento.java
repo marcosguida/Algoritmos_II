@@ -1,9 +1,8 @@
-package POO_Monitoria.POLIMORFISMO_HERANÇA.Ex3.Interface;
+package Interface.Pagamento;
 
 interface Pagavel {
     double calcularPagamento();
     
-    // Método default 
     default void exibirPagamento() {
         System.out.println("Pagamento: R$" + calcularPagamento());
     }
@@ -38,7 +37,7 @@ class Fatura implements Pagavel {
     }
 }
 
-public class InterfaceMain {
+public class InterfacePagamento {
     public static void main(String[] args) {
         Pagavel funcionario = new Funcionario(3000);
         Pagavel fatura = new Fatura(1000, 0.1);

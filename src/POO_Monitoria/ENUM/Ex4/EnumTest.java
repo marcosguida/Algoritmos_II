@@ -1,4 +1,4 @@
-package POO_Monitoria.ENUM.Ex4;
+package ENUM.Ex4;
 
 import java.util.Scanner;
 
