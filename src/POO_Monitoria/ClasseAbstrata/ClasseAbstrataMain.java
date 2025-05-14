@@ -1,5 +1,4 @@
 package ClasseAbstrata;
-// Classe abstrata
 abstract class Forma {
     // Método abstrato (sem implementação)
     public abstract double calcularArea();
@@ -10,7 +9,6 @@ abstract class Forma {
     }
 }
 
-// Classes que estendem a classe abstrata
 class Circulo extends Forma {
     private double raio;
     
@@ -41,7 +39,7 @@ class Retangulo extends Forma {
 
 public class ClasseAbstrataMain {
     public static void main(String[] args) {
-        // Forma forma = new Forma(); // Erro: não pode instanciar classe abstrata
+        // Forma forma = new Forma(); // Erro: não pode instanciar classe abstrata no java
         
         Forma circulo = new Circulo(5);
         Forma retangulo = new Retangulo(4, 6);
