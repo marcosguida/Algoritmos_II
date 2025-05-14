@@ -2,9 +2,9 @@
 <h1 align="center" style="font-weight: bold;">
 
 [JAVA_BADGE]:https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white
-[SPRING_BADGE]: https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white
+[UML_BADGE]: https://img.shields.io/badge/UML-FABD14.svg?style=for-the-badge&logo=UML&logoColor=black
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
-![spring][SPRING_BADGE]
+![uml][UML_BADGE]
 ![java][JAVA_BADGE]
 </h1>
 
