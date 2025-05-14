@@ -1,12 +1,12 @@
+<h1 align="center" style="font-weight: bold;">ALGORITMOS E PROGRAMAÇÃO II 💻</h1>
+<h1 align="center" style="font-weight: bold;">
+
 [JAVA_BADGE]:https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white
 [SPRING_BADGE]: https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white
-
-<h1 align="center" style="font-weight: bold;"> ALGORITMOS E PROGRAMAÇÃO II</h1>
-
- [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
- 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
 ![spring][SPRING_BADGE]
 ![java][JAVA_BADGE]
+</h1>
 
  - Repositório destinado à disciplina de ALGORITMOS E PROGRAMAÇÃO II, do 2° Período do curso de Sistemas de Informação - UNITINS
  - Semestre letivo: 2024.2
