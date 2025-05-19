@@ -28,7 +28,7 @@ public class Exemplo1 {
         System.out.println("Após remover C#: " + linguagens);
         
         // Remover pelo índice
-        linguagens.remove(0);  // Remove Java
+        linguagens.remove(0); 
         System.out.println("Após remover o primeiro elemento: " + linguagens);
         
         // Imprimindo o tamanho da lista
