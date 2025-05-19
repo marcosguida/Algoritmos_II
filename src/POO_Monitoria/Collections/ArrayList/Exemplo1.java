@@ -43,11 +43,11 @@ public class Exemplo1 {
             System.out.println("- " + linguagem);
         }
         
-        // Usando lambda
+        // Lambda
         System.out.println("\nUsando lambda para iterar:");
         linguagens.forEach(linguagem -> System.out.println("- " + linguagem));
         
-        // Limpando a lista
+        // Limpando dados da lista
         linguagens.clear();
         System.out.println("\nApós limpar a lista: " + linguagens);
         System.out.println("Tamanho: " + linguagens.size());
