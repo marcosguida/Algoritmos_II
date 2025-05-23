@@ -12,6 +12,7 @@ public class Caixa<T> {
     }
 
     public static void main(String[] args) {
+
         Caixa<String> caixaTexto = new Caixa<>();
         caixaTexto.colocar("Hello");
 
