@@ -20,6 +20,7 @@ SOLID).
 ## Tecnologias e Ferramentas
 * Java 21
 * UML (Unified Modeling Language)
+* PlantUML
 
 ## Discente
 
