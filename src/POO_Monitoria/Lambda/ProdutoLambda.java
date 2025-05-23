@@ -57,8 +57,5 @@ public class ProdutoLambda {
                 .sorted((p1, p2) -> Double.compare(p2.getPreco(), p1.getPreco()))
                 .forEach(p -> System.out.println(p));
         System.out.println("\n");
-    
-
-
     }
 }
