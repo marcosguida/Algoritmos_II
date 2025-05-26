@@ -5,6 +5,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+/**
+ * Agrupa palavras por tamanho e conta quantas palavras existem de cada tamanho.
+ * Também junta as palavras maiores que 4 letras em uma string formatada.
+ */
+
 public class AgrupadorPalavras {
     public static void main(String[] args) {
         List<String> palavras = Arrays.asList(
