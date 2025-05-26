@@ -6,6 +6,7 @@ import java.util.ArrayList;
 public class Lista {
 
     public static void main(String[] args) {
+        
         // Com generics
         List<String> lista = new ArrayList<>();
         lista.add("CPF");

@@ -14,7 +14,6 @@ public class Lista {
 
         List<String> lista = new ArrayList<>();
 
-
         lista.add("A");
         lista.add("B");
         lista.add("R");
