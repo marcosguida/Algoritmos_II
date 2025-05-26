@@ -22,7 +22,7 @@ public class Main {
 		ordemCrescente(num1, num2, num3);
 
 	}
-
+ 
 	public static void ordemCrescente(int num1, int num2, int num3) {
 		int aux = 0;
 		if (num1 > num2) {
