@@ -1,6 +1,5 @@
-package Collections;
+package Collections.Collectors;
 
-// AgrupadorPalavras.java
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
