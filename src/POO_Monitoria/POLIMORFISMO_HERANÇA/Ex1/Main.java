@@ -16,6 +16,7 @@ class Forma {
     }
 }
 
+
 // Classe filha - subclasse - herda de Forma
 class Quadrado extends Forma {
     private double lado;
@@ -25,8 +26,7 @@ class Quadrado extends Forma {
     }
     
     // Sobrescrita 
-    @Override
-    public double calcularArea() {
+     public double calcularArea() {
         return lado * lado;
     }
     
@@ -41,10 +41,12 @@ public class Main {
     public static void main(String[] args) {
 
         Forma formaGenerica = new Forma(); 
-        Forma forma1 = new Quadrado(5.0);
+        Forma forma1 = new Quadrado(4.0);
+
+        System.out.println("");
 
         System.out.println("Área da forma genérica: " + formaGenerica.calcularArea());
-        formaGenerica.exibir("10.0");
+        formaGenerica.exibir("8.0");
         
         System.out.println("Área do quadrado: " + forma1.calcularArea());
         
