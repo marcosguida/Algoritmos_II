@@ -6,10 +6,6 @@ import java.util.List;
 
 public class Lista {
 
-    private String nome;
-    private String cpf;
-    private int idade;
-
     public static void main(String[] args) {
 
         List<String> lista = new ArrayList<>();

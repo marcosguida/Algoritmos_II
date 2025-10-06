@@ -30,6 +30,7 @@ class Quadrado extends Forma {
         return lado * lado;
     }
     
+    // Sobrescrita 
     @Override
     public void exibir() {
         System.out.println("Quadrado com lado " + lado);
