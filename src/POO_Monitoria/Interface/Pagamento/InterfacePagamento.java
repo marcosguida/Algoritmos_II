@@ -21,7 +21,6 @@ class Funcionario implements Pagavel {
         return salario;
     }
 }
-
 class Fatura implements Pagavel {
     private double valor;
     private double desconto;
@@ -30,12 +29,13 @@ class Fatura implements Pagavel {
         this.valor = valor;
         this.desconto = desconto;
     }
-    
+
     @Override
     public double calcularPagamento() {
         return valor - (valor * desconto);
     }
 }
+
 
 public class InterfacePagamento {
     public static void main(String[] args) {

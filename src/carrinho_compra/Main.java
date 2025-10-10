@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         CarrinhoCompras carrinho = new CarrinhoCompras();
         Scanner scanner = new Scanner(System.in);
-
+    
         while (true) {
             System.out.println("\nMenu:");
             System.out.println("1) Adicionar eletrônico");
